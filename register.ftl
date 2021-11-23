@@ -29,7 +29,7 @@
                           </div>
                         <div class="media-body">
                             <h5 class="media-heading"><strong>Step 2:</strong></h5>
-                            Données architecte
+                            Données complémentaires
                         </div>
                     </div>
                       </li>
