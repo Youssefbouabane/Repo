@@ -58,7 +58,7 @@
     
                             <div class="form-group col-md-6">
                                 <label for="">Email</label>
-                                <input type="text" id="email" class="${properties.kcInputClass!}  form-control" name="Email"
+                                <input type="text" id="email" class="${properties.kcInputClass!}  form-control" name="email"
                                 value="${(register.formData.email!'')}" autocomplete="email" placeholder="email"
                                 aria-invalid="<#if messagesPerField.existsError('email')>true</#if>"/>
                             </div>
@@ -99,8 +99,7 @@
                                         <div class="form-group col-md-6">
                                             <label for="confirm_password">Conseil régional</label>
                                             <input type="text" id="password-confirm" placeholder="Conseil régional" class="${properties.kcInputClass!}  form-control"
-                                            name="password-confirm"
-                                            aria-invalid="<#if messagesPerField.existsError('password-confirm')>true</#if>"
+                                            name="user.attributes.creg" value="${(register.formData['user.attributes.creg']!'')}"
                                         />                            </div>
 
                                 
