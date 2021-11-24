@@ -101,8 +101,8 @@
                                             <select id="password-confirm" placeholder="Conseil régional" class="${properties.kcInputClass!}  form-control"
                                             name="user.attributes.creg" value="${(register.formData['user.attributes.creg']!'')}"
                                         >
-                                        <option value="CROA - zone du centre -">CROA -zone du centre-</option>
-                                        <option value="CROA - zone du sud -">CROA - zone du sud -</option>
+                                        <option value="CROA – zone du centre -">CROA – zone du centre –</option>
+                                        <option value="CROA – zone du sud -">CROA – zone du sud –</option>
                                         <option value="CROA – zone eljadida –">CROA – zone eljadida –</option>
                                         <option value="CROA – zone fes –">CROA – zone fes –</option>
                                         <option value="CROA – zone kenitra –">CROA – zone kenitra –</option>
