@@ -98,9 +98,22 @@
                 
                                         <div class="form-group col-md-6">
                                             <label for="confirm_password">Conseil régional</label>
-                                            <input type="text" id="password-confirm" placeholder="Conseil régional" class="${properties.kcInputClass!}  form-control"
+                                            <select id="password-confirm" placeholder="Conseil régional" class="${properties.kcInputClass!}  form-control"
                                             name="user.attributes.creg" value="${(register.formData['user.attributes.creg']!'')}"
-                                        />                            </div>
+                                        >
+                                        <option value="CROA - zone du centre -">CROA -zone du centre-</option>
+                                        <option value="CROA - zone du sud -">CROA - zone du sud -</option>
+                                        <option value="CROA – zone eljadida –">CROA – zone eljadida –</option>
+                                        <option value="CROA – zone fes –">CROA – zone fes –</option>
+                                        <option value="CROA – zone kenitra –">CROA – zone kenitra –</option>
+                                        <option value="CROA – zone marrakech safi –">CROA – zone marrakech safi –</option>
+                                        <option value="CROA – zone meknes –">CROA – zone meknes –</option>
+                                        <option value="CROA – zone nador –">CROA – zone nador –</option>
+                                        <option value="CROA – zone oujda –">CROA – zone oujda –</option>
+                                        <option value="CROA – zone rabat –">CROA – zone rabat –</option>
+                                        <option value="CROA – zone tanger –">CROA – zone tanger –</option>
+                                        <option value="CROA – zone tetouan –">CROA – zone tetouan –</option>
+                                    </select>                            </div>
 
                                 
     
